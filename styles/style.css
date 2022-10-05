@@ -1,0 +1,54 @@
+/* ----------------- elements ----------------- */
+
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPdh5JqW1RgZdgnvO7dx_4clRvCEx6PzLSzQ&usqp=CAU);
+    background-size:contain;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+ul li{
+    display: inline-block;
+
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color:purple; 
+}
+
+img{
+    float: left;
+    border-radius: 80%;
+}
+
+footer{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: purple;
+    
+}
+
+/* ----------------- classes ----------------- */
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    border: 5px dashed purple;
+}
+
+.text{
+    border: 5px solid purple;
+    line-height: 35px;
+    font-style: italic;
+    font-size: 20px;
+    color: #182747;
+    font-weight: bold;
+}
+.navigation{
+    list-style: none;
+}
